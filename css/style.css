@@ -1,0 +1,427 @@
+/*  =======================
+    Author: Jannatul Ferdous
+    Author URL:  jannatulferdous1.netlify.app 
+    Temnplete-Name: Fiverr
+    version: 1.0 
+    ================================*/
+
+    /* ======================
+        Table Of Content
+    ban-con
+    navbar-collapse
+    navbar-brand
+    ban-text
+    text-ban
+    ban-btn
+    pbtn
+    joinbtn
+    english 
+    ban-input
+    company
+    company-container
+    ban-trust
+    cardsec-1
+    cardsec
+    freelance-i
+    freelance
+    freelance-text
+    
+    */
+/* =========================
+    Global CSS
+    ============== */
+    *{
+        margin: 0px;
+        padding:0px ;
+    }
+/* ====================
+    Commmon CSS
+ */
+    /* .fixed-top{
+        background-color: var(--bs-white);
+    } */
+
+
+
+    /*----------------
+     root file 
+     --------------- */
+    :root
+    {
+        --bs-white: #FFFFFF;
+        --bs-green: #19A463;
+        --bs-black: #404145;
+        --bs-cyan: #F1FDF7;
+        --bs-blue: #0D084D;
+        --bs-skyblue: #446EE7;
+        --bs-offwhite: #FAFAFA;
+
+    }
+
+    /*=======================
+     banner section style  
+     =========================*/
+
+    .ban-con{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        animation: animate 16s ease-in-out infinite;
+    }
+    @keyframes animate{
+        0%, 100%{
+            background-image: url(../images/man11.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        25%{
+            background-image: url(../images/women22.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        50%{
+            background-image:url(../images/man22.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
+      
+    }
+    .navbar-collapse ul li a{
+        font-weight: bold;
+        color: var( --bs-white )!important;
+        font-size: 18px !important;
+    }
+    .navbar-brand{
+        font-size: 30px ;
+        font-weight: bold;
+        color: var(--bs-white) !important;
+    }
+    .ban-text{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+    .text-ban h1{
+        color: var(--bs-white);
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .ban-btn button{
+        border-radius: 30px !important;
+        font-size: 14px !important;
+        border: 2px solid var(--bs-white) !important;
+        color: var(--bs-white);
+        font-weight: bold
+    }
+    .ban-btn button:hover{
+        color: #404145;
+        background-color: #FFFFFF;
+    }
+    .pbtn{
+        font-weight: bold;
+        color: var(--bs-white);
+        margin-top: 7px;
+        margin-right: 5px
+    }
+    .joinbtn button{
+        border: 2px solid var(--bs-white) !important;
+        color: #FFFFFF;
+        font-weight: bold;
+        padding: 4px 20px;
+    }
+    .joinbtn button:hover{
+        background-color: var(--bs-green);
+        border: none !important;
+        outline: none !important;
+    }
+    .english i{
+        color: #FFFFFF !important;
+        margin-top: 15px !important;
+    }
+    .ban-input span{
+        background-color: var(--bs-green);
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .company {
+        background-color: var(--bs-offwhite) !important;
+        height: 73px !important;
+        margin-top: -47px;
+    }
+    .company-container{
+        max-width: 70%;
+    }
+    .ban-trust p{
+        font-weight: bold;
+    }
+    .card-sec-con-1{
+        margin-top: 100px;
+    }
+    .cardsec-1{
+        display: grid;
+        grid-template-columns: 14rem 14rem 14rem 14rem 14rem;
+        grid-gap: 40px ;
+    }
+    .cardsec1{
+        background-image: url(../images/cardsec1/card1.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+    .cardsec2{
+        background-image: url(../images/cardsec1/card2.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+
+    .cardsec3{
+        background-image: url(../images/cardsec1/card3.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+
+    .cardsec4{
+        background-image: url(../images/cardsec1/card4.jpg);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+    .cardsec5{
+        background-image: url(../images/cardsec1/card5.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+    .cardsec6{
+        background-image: url(../images/cardsec1/card6.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+    .cardsec7{
+        background-image: url(../images/cardsec1/card7.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+
+    .cardsec8{
+        background-image: url(../images/cardsec1/card8.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+
+    .cardsec9{
+        background-image: url(../images/cardsec1/card9.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+    .cardsec10{
+        background-image: url(../images/cardsec1/card10.webp);
+        height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
+    .cardsec h4{
+        color: var(--bs-white);
+        font-weight: bold;
+    }
+    .cardsec p{
+        color: var(--bs-white);
+    }
+    .cardsec:hover{
+        opacity: 0.7;
+    }
+    .freelance-i i{
+        font-size: 16px;
+        padding: 9px 8px;
+        border: 3px solid gray;
+        border-radius: 100px;
+        margin-right: 10px;
+    }
+    .freelance p{
+        color: var(--bs-black);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .freelance-text {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .video video{
+        width: 650px;
+        height: 54vh;
+    }
+    .freelance-con{
+        background-color: var(--bs-cyan);
+        height: 130vh;
+        width: 100%;
+        padding: 100px 0px !important;
+        margin-top: 100px;
+    }
+    .explore-con{
+        margin-top: 100px;
+    }
+    .explore{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 60px;
+    }
+    .explore-icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .explore-icon img{
+        width:  55px ;
+        height: 55px;
+        border-bottom: 1px solid gray;
+    }
+    .explore ul li a::after{
+        content: ' ';
+        width: 0;
+        height: 3px;
+        margin: auto;
+        display: block;
+        background-color: #FFFFFF;
+        /* transition: width 0.3;; */
+    }
+    .explore ul li a:hover::after{
+        width: 100%;
+        transition: width 0.3 linear;
+    }
+
+    .fiverbtn button{
+        background-color: var(--bs-green);
+        color: var(--bs-white);
+        font-weight: bold;
+    }
+    .buisness-container{
+        background-color: var(--bs-blue);
+        height: 100vh;
+        padding: 100px  0px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .buisness{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .buisness-text h2{
+        font-weight: bold;
+        color: var(--bs-white);
+    }
+    .buisness-text p{
+        font-weight: 500;
+        color: var(--bs-white);
+    }
+    .buisness-text h6{
+        font-weight: 500;
+        color: var(--bs-white);
+    }
+    .quotationcon{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .quotation h5{
+        border-left: 2px solid gray;
+        margin-left: 20px;
+    }
+    .logo-con{
+        background-color: var(--bs-skyblue);
+        border-radius: 10px;
+        width: 90%;
+        height: 300px;
+        margin-top: 100px;
+    }
+    .logo-text {
+        color: var(--bs-white);
+    }
+    .logo img{
+        width: 800px!important;
+    }
+    .logo-text h3{
+        font-weight: 700;
+    }
+    .logo-text p{
+        font-weight: bold;
+    }
+    .logo-text button{
+        background-color: var(--bs-white ) !important;
+        color: #446EE7 !important;
+        font-weight: bold;
+    }
+    .first-card-sec-tit  h2{
+        margin-bottom: 50px;
+    }
+
+    .card-sec-con-2{
+        background-color: var(--bs-offwhite);
+       padding: 100px 0px;
+       margin-top: 100px;
+    }
+    .card-sec-inner-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 180px; */
+
+    }
+    .cardsec-2{
+        /* margin-top: ; */
+    }
+    .cardsec-2 img{
+        height: 240px;
+       width: 100%;
+    }
+    .cardsec-2:hover{
+        opacity: 0.7;
+    }
+    .card-section-3{
+        margin-top: 100px;
+    }
+    .card-sec3{
+        height: 350px;
+    }
+    .card-sec3:hover{
+        opacity: 0.7;
+    }
+    .growing{
+        width: 95%;
+        background-image: url(../images/image3.webp);
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .growing h2{
+        color: var(--bs-white);
+        font-size: 45px;
+    }
+
+    .footer{
+        margin-top: 150px;
+        display: grid;
+        grid-template-columns: 16rem 16rem 16rem 16rem 16rem;
+        justify-content: center;
+        grid-gap: 10px;
+
+    }
+
